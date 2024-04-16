@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="forma">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Mesto Polaska</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="mestoPolaska"
+              placeholder="Unesite mesto polaska"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Mesto Sletanja</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="mestoSletanja"
+              placeholder="Unesite mesto sletanja"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>Vreme Polaska</label>
+          </div>
+          <div class="col-75">
+            <input type="datetime-local" id="vremePolaska" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>Vreme Sletanja</label>
+          </div>
+          <div class="col-75">
+            <input type="datetime-local" id="vremeSletanja" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>Distanca u km</label>
+          </div>
+          <div class="col-75">
+            <input type="number" id="distance" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>Cena</label>
+          </div>
+          <div class="col-75">
+            <input type="number" id="cena" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>Smer</label>
+          </div>
+          <div class="col-75">
+            <select id="Smer">
+              <option value="One way">One way</option>
+              <option value="Round Trip">Round Trip</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>Presedanja</label>
+          </div>
+          <div class="col-75">
+            <select id="Presedanja">
+              <option value="Direct">Direct</option>
+              <option value="One Stop">First Stop</option>
+              <option value="Two Stops">Second Stop</option>
+            </select>
+          </div>
+        </div>
+        <div class="row" id="firstStop">
+          <div class="col-25">
+            <label for="fname">Prvo Presedanje</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="firstStop_value"
+              placeholder="Unesite Prvog Presedanja"
+            />
+          </div>
+        </div>
+        <div class="row" id="secondStop">
+          <div class="col-25">
+            <label for="fname">Drugo Presedanje</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="secondStop_value"
+              placeholder="Unesite Drugog Presedanja"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit" id="submit" />
+        </div>
+      </form>
+    </div>
+
+    <div class="dugmad">
+      <button onclick="backPage()">Back</button>
+      <button onclick="nextPage()">Next</button>
+    </div>
+
+    <script src="scrypt.js"></script>
+  </body>
+</html>

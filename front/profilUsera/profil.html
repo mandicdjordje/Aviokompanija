@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../izgledMeni.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <ul class="main-nav-list">
+          <li>
+            <a href="../Flights/pocetna.html" class="main-nav-link">Flights</a>
+          </li>
+          <li><a href="" class="main-nav-link">Hotels</a></li>
+          <li><a href="" class="main-nav-link">Cars</a></li>
+          <li>
+            <a href="../Prijatelji/index.html" class="main-nav-link">Friends</a>
+          </li>
+          <li>
+            <a href="../MyReservation/index.html" class="main-nav-link"
+              >My Reservation</a
+            >
+          </li>
+          <li><a href="" class="main-nav-link">Profil</a></li>
+          <li>
+            <a
+              href="/front/formeZaPrijavuKorisnika/logIn/index.html"
+              class="main-nav-link"
+              >Log in</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <form action="" class="forma" id="form">
+      <div class="forma-container">
+        <div class="formaRed">
+          <label for="">FirstName:</label>
+          <input type="text" name="" id="firstName" placeholder="Djordje" />
+        </div>
+        <div class="formaRed">
+          <label for="">LastName:</label>
+          <input type="text" name="" id="lastName" placeholder="Mandic" />
+        </div>
+        <div class="formaRed">
+          <label for="">Email:</label>
+          <input
+            type="email"
+            name=""
+            id="email"
+            placeholder="zeljazver@gmail.com"
+          />
+        </div>
+        <div class="formaRed">
+          <label for="">Password:</label>
+          <input type="password" name="" id="password" />
+        </div>
+
+        <input type="submit" class="submit" value="Save changes" />
+      </div>
+    </form>
+
+    <div class="container">
+      <div class="uspesno" id="uspesno">
+        <p class="tekst" id="tekst">Uspesno ste promenili podatke</p>
+      </div>
+      <div class="nijeUspesno" id="nijeUspesno">
+        <p class="tekst2" id="tekst2">Popunite sva polja</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

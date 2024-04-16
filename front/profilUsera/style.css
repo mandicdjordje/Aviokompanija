@@ -1,0 +1,75 @@
+
+.forma {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formaRed {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+.submit {
+  padding: 5px;
+  font-size: 15px;
+  margin-left: 62%;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 'overlap';
+  margin-top: 20px;
+}
+.uspesno {
+  grid-area: overlap;
+  align-items: center;
+  justify-self: center;
+
+  margin-top: 20px;
+  border: 3px solid rgb(123, 182, 123);
+  padding: 10px;
+  width: 500px;
+  height: 200px;
+  background-color: rgb(155, 184, 136);
+  border-radius: 5%;
+}
+
+#uspesno {
+  visibility: hidden;
+}
+.tekst {
+  padding: 70px 0;
+  text-align: center;
+  font-size: 30px;
+}
+#tekst {
+  visibility: hidden;
+}
+.nijeUspesno {
+  grid-area: overlap;
+  align-items: center;
+  justify-self: center;
+  margin: auto;
+  margin-top: 20px;
+  border: 3px solid rgb(156, 59, 14);
+  padding: 10px;
+  width: 500px;
+  height: 200px;
+  background-color: rgb(204, 52, 47);
+  border-radius: 5%;
+}
+#nijeUspesno {
+  visibility: hidden;
+}
+.tekst2 {
+  padding: 70px 0;
+  text-align: center;
+  font-size: 30px;
+  color: azure;
+}
+#tekst2 {
+  visibility: hidden;
+}

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../front/izgledMeni.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500;600&family=Inter:wght@400;500;700;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Roboto&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="sekcija1">
+      <header class="header">
+        <ul class="main-nav-list">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1"
+            id="Layer_1"
+            x="0px"
+            y="0px"
+            viewBox="0 0 122.88 122.88"
+            style="enable-background: new 0 0 122.88 122.88"
+            xml:space="preserve"
+            width="25px"
+            height="25px"
+            fill="white"
+          >
+            <g>
+              <path
+                class="st0"
+                d="M16.63,105.75c0.01-4.03,2.3-7.97,6.03-12.38L1.09,79.73c-1.36-0.59-1.33-1.42-0.54-2.4l4.57-3.9   c0.83-0.51,1.71-0.73,2.66-0.47l26.62,4.5l22.18-24.02L4.8,18.41c-1.31-0.77-1.42-1.64-0.07-2.65l7.47-5.96l67.5,18.97L99.64,7.45   c6.69-5.79,13.19-8.38,18.18-7.15c2.75,0.68,3.72,1.5,4.57,4.08c1.65,5.06-0.91,11.86-6.96,18.86L94.11,43.18l18.97,67.5   l-5.96,7.47c-1.01,1.34-1.88,1.23-2.65-0.07L69.43,66.31L45.41,88.48l4.5,26.62c0.26,0.94,0.05,1.82-0.47,2.66l-3.9,4.57   c-0.97,0.79-1.81,0.82-2.4-0.54l-13.64-21.57c-4.43,3.74-8.37,6.03-12.42,6.03C16.71,106.24,16.63,106.11,16.63,105.75   L16.63,105.75z"
+              />
+            </g>
+          </svg>
+
+          <a href="../Flights/pocetna.html" class="main-nav-link">Flights</a>
+
+          <a href="../Prijatelji/index.html" class="main-nav-link">Friends</a>
+
+          <a href="../MyReservation/index.html" class="main-nav-link"
+            >My Reservation</a
+          >
+        </ul>
+
+        <ul class="main-nav-list-2">
+          <a href="../profilUsera/profil.html" class="main-nav-link">Profil</a>
+
+          <a
+            href="KreirajAdmina/pocetna.html"
+            class="main-nav-link-2"
+            id="napravi-admina"
+            >Dodaj Admina</a
+          >
+          <a
+            href="RemoveAdmin/index.html"
+            class="main-nav-link-2"
+            id="ukloni-admina"
+            >Ukloni Admina</a
+          >
+          <a
+            href="Kreiraj/Podaci/index.html"
+            class="main-nav-link-2"
+            id="napravi-let"
+            >Dodaj Let</a
+          >
+          <a
+            class="button-header-text"
+            href="/front/formeZaPrijavuKorisnika/logIn/index.html"
+            >Sign in</a
+          >
+        </ul>
+      </header>
+    </div>
+
+    <div class="sekcija2">
+      <div class="naslov">
+        <p class="naslov-tekst">Rezervišite letove kod nas</p>
+        <p class="naslov-tekst-manji">Uz minimalno truda rezerviši kartu</p>
+        <!-- <div class="dugmad-admin">
+          <button class="dugme-admin" id="napravi-admina">Dodaj Admina</button>
+          <button class="dugme-admin" id="napravi-let">Dodaj Let</button>
+        </div> -->
+      </div>
+    </div>
+    <div class="sekcija3">
+      <div class="sekcija-3-container">
+        <div class="sekcija-3-container-form-background">
+          <div class="sekcija-3-container-form">
+            <input
+              class="polje-forma polje-forma-tekst slika-uzletanje"
+              type="text"
+              placeholder="From"
+              id="from"
+            />
+
+            <input
+              class="polje-forma polje-forma-tekst slika-sletanje"
+              type="text"
+              placeholder="To"
+              id="to"
+            />
+            <select class="polje-forma" id="ticketWay">
+              <option value="One way" id="smer">
+                <p class="strelicaLevo">&#x2192;</p>
+                <p>One way</p>
+              </option>
+              <option value="Round Trip"><p>&#x21c4;Round Trip</p></option>
+              <option value="All">All</option>
+            </select>
+            <select class="polje-forma" id="stops">
+              <option value="Direct">Direct</option>
+              <option value="1 stop">1 stop</option>
+              <option value="2 stops">2 stops</option>
+              <option value="All">All</option>
+            </select>
+            <button class="submit" id="pretrazi-let">Pretrazi</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="putnici-div">
+        <div class="putnici-sve">
+          <div class="putnici-pozadina">
+            <div class="putnici" onclick="prikaziPutnike()" id="putnici">
+              <img src="../SLIKE/username.png" alt="" class="username" />
+              <p class="passengers" id="economy-ukupno">Economy 1</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="datum-sve">
+          <div class="putnici-pozadina">
+            <div class="datumi">
+              <input type="date" class="datum" id="polazak-od" />
+              <input type="date" class="datum" id="polazak-do" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sekcija-4">
+      <div class="putnici-broj-div" id="putnici-select">
+        <div class="korisnik-tekst">Economy</div>
+        <div class="button-div">
+          <button class="dugme" id="dugme-dodaj-1">+</button>
+          <p id="broj-economy"></p>
+          <button class="dugme" id="dugme-oduzimi-1">-</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="sekcija-5" id="sekcija-5">
+      <!-- <div class="uputstva">
+        <div class="klase">
+          <div class="klasa">Economy</div>
+          <div class="klasa">Business</div>
+        </div>
+      </div>
+      <div class="let-div">
+        <div class="let-element">
+          <p class="elementi-let">From</p>
+          <p class="elementi-let">To</p>
+        </div>
+        <div class="let-element">
+          <p class="elementi-let">Polazak</p>
+          <p class="elementi-let-duzinaLeta">Duzina Leta</p>
+          <p class="elementi-let">Sletanje</p>
+        </div>
+        <div class="let-element">
+          <p class="elementi-let">One Way</p>
+          <p class="elementi-let">Direct</p>
+        </div>
+        <div class="dugmad-let">
+          <div class="dugme-let-economy">
+            <p>Cena po putniku</p>
+            <p>od 12999 din</p>
+          </div>
+
+          <div class="dugme-let-buisness">
+            <p>Nije dostupno</p>
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <!-- <div id="letovi"></div> -->
+
+    <div class="sekcija-6">
+      <div class="slike-divovi" id="slike-divovi">
+        <div class="slika-div-sve">
+          <div class="slika-div">
+            <img
+              src="../SLIKE/medenimesec.jpeg"
+              alt=""
+              srcset=""
+              class="slike"
+            />
+          </div>
+          <div class="tekst-div-sve">
+            <h1>Nezaboravno putovanje za medeni mesec</h1>
+            <p>
+              Ako se za venčanje kaže da je najlepši dan u životu, onda je
+              medeni mesec zasigurno putovanje života. Od udaljenih i egzotičnih
+              mesta, do obližnjih evropskih gradova, ceo svet vam je pod nogama,
+              a izbor je samo vaš!
+            </p>
+          </div>
+          <div class="procitaj-vise-sve">
+            <a href="" class="procitaj-vise">Pročitajte vise &nbsp;&nbsp;></a>
+          </div>
+        </div>
+        <div class="slika-div-sve">
+          <div class="slika-div">
+            <img src="../SLIKE/pets.jpg" alt="" srcset="" class="slike" />
+          </div>
+          <div class="tekst-div-sve">
+            <h1>Putovanja sa kućnim ljubimcem</h1>
+            <p>
+              Putovanja su sama po sebi uvek uzbudljiva, a ako putujete u dobrom
+              društvu, i zabavna. Ukoliko odlučite da u svoju narednu avanturu
+              povedete i kućnog ljubimca, evo nekoliko naših saveta za
+              bezbrižnije putovanje.
+            </p>
+          </div>
+          <div class="procitaj-vise-sve">
+            <a href="" class="procitaj-vise">Pročitajte vise &nbsp;&nbsp;></a>
+          </div>
+        </div>
+        <div class="slika-div-sve">
+          <div class="slika-div">
+            <img src="../SLIKE/italija.jpg" alt="" srcset="" class="slike" />
+            <div class="tekst-div-sve">
+              <h1>Savršeno vikend putovanje u Italiju</h1>
+              <p>
+                Posebno raskošni u proleće, Napulj i Firenca vas svojim
+                sadržajima mogu okupirati nedeljama. Stoga, neka vaše vikend
+                putovanje bude način da bar na kratko osetite kako Italijani
+                žive svoj dolce vita, ali i argument da se u Italiju opet
+                vratite.
+              </p>
+            </div>
+            <div class="procitaj-vise-sve">
+              <a href="" class="procitaj-vise">Pročitajte vise &nbsp;&nbsp;></a>
+            </div>
+          </div>
+        </div>
+        <div class="slika-div-sve">
+          <div class="slika-div">
+            <img src="../SLIKE/valensija.webp" alt="" srcset="" class="slike" />
+          </div>
+        </div>
+        <div class="slika-div-sve">
+          <div class="slika-div">
+            <img src="../SLIKE/berlin.avif" alt="" srcset="" class="slike" />
+          </div>
+        </div>
+      </div>
+      <!-- <div class="slider-div">
+        <div class="slider-sve">
+          <div class="slider" id="slider" onclick="sliding()"></div>
+        </div>
+      </div> -->
+    </div>
+
+    <footer class="footer">
+      <div class="footer-elements">
+        <div class="footer-elements-unutar">
+          <div class="footer-element-1">
+            <a href="" class="footer-element-a">Rezerviši</a>
+            <a href="" class="footer-element-a">Moja rezervacija</a>
+            <a href="" class="footer-element-a">Check-in</a>
+            <a href="" class="footer-element-a">Otkrij</a>
+            <a href="" class="footer-element-a">Info & Pomoć</a>
+            <a href="" class="footer-element-a">Blog</a>
+            <button class="button-rez-let"><p>Rezervisi let</p></button>
+          </div>
+          <div class="footer-element-2">
+            <a href="" class="footer-element-a">Otkrij</a>
+            <a href="">Moja rezervacija</a>
+            <a href="">Check-in</a>
+            <a href="">Otkrij</a>
+            <a href="">Info & Pomoć</a>
+            <a href="">Blog</a>
+          </div>
+          <div class="footer-element-3">
+            <a href="" class="footer-element-a">Podrška</a>
+            <a href="">Često postavljana pitanja</a>
+            <a href="">Opcije za prijavu na let</a>
+            <a href="">Neregularnosti sa prtljagom</a>
+            <a href="">Specijalni zahtevi</a>
+            <a href="">Načini plaćanja</a>
+            <a href="">Propisi u vezi sa Covid-19</a>
+            <a href="">Pohvale i žalbe</a>
+            <a href="" class="footer-element-a">Za kompanije</a>
+            <a href="">Korporativna prodaja</a>
+            <a href="">Putničke agencije</a>
+            <a href="">Zahtev za grupnu rezervaciju</a>
+            <a href="">Čarter letovi</a>
+          </div>
+          <div class="footer-element-4">
+            <a href="" class="footer-element-a">O nama</a>
+            <a href="">Naša priča</a>
+            <a href="">Medija centar</a>
+            <a href="">Novosti</a>
+            <a href="">Karijera</a>
+            <a href="" class="footer-element-a">Kontakti</a>
+            <div class="kontaktiraj">
+              <img
+                src="../SLIKE/email-svg.svg"
+                alt=""
+                class="kontaktiraj-email"
+              />
+              <a href="">Kontaktirajte nas</a>
+            </div>
+            <div class="kontaktiraj">
+              <img
+                src="../SLIKE//location.svg"
+                alt=""
+                class="kontaktiraj-email"
+              />
+              <a href=""
+                >Air NOVI SAD a.d. NOVI SAD, Jurija Gagarina 12, 11070 NOVI SAD,
+                Srbija</a
+              >
+            </div>
+          </div>
+          <div class="footer-element-2">
+            <h1>Newsletter</h1>
+            <p>Prijavi se i ne propusti naše posebne ponude.</p>
+            <input type="email" class="email-footer" placeholder="Email" />
+            <div class="dugme-gotovi">
+              <button class="dugme-gotovo">Gotovo</button>
+            </div>
+            <p class="povezi-se">Povežimo se</p>
+            <div>
+              <a href="">
+                <img src="../SLIKE/instagram.svg" alt="" srcset="" />
+              </a>
+              <a href="" class="margin-left">
+                <img src="../SLIKE/facebook.svg" alt="" srcset="" />
+              </a>
+              <a href="" class="margin-left">
+                <img src="../SLIKE/linkedin.svg" alt="" srcset="" />
+              </a>
+              <a href="" class="margin-left">
+                <img src="../SLIKE/youtube.svg" alt="" srcset="" />
+              </a>
+              <a href="" class="margin-left">
+                <img src="../SLIKE/twiter.svg" alt="" srcset="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="../showAdmin.js"></script>
+    <script src="script.js"></script>
+    <source />
+  </body>
+</html>

@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  background-color: #34568b;
+}
+:root {
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+}
+input[type='text'],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+input[type='number'],
+input[type='datetime-local'] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type='submit'] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input {
+  background-color: beige;
+  transition: 0.7s;
+}
+input[type='submit'] {
+  margin-top: 10px;
+}
+input[type='submit']:hover {
+  background-color: #45a049;
+  letter-spacing: 2px;
+}
+select {
+  background-color: beige;
+}
+option {
+  background-color: beige;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+
+  padding: 20px;
+}
+#forma {
+  width: 555px;
+  margin: auto;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row {
+  color: beige;
+}
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.dugmad {
+  display: flex;
+  justify-content: center;
+}
+button {
+  width: 200px;
+  margin: 30px;
+  height: 30px;
+  font-weight: bold;
+  background-color: beige;
+  color: black;
+  border: none;
+}

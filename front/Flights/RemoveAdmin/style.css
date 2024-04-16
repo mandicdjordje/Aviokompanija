@@ -1,0 +1,44 @@
+.glavniDiv {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 60px;
+  width: auto;
+  padding: 20px 0px 20px 0px;
+}
+.unosPodatka {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0px 20px 0px;
+}
+.tekst {
+  padding: 10px;
+  letter-spacing: 2px;
+}
+#tekst {
+  display: none;
+  justify-content: center;
+}
+#UkloniAdmina {
+  display: none;
+  padding: 10px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.divNazad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nazad {
+  letter-spacing: 2px;
+  padding: 10px 20px 10px 20px;
+  border: solid black 1px;
+  cursor: pointer;
+}

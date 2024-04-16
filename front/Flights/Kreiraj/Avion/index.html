@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sedista za rezervisanje</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1>Napravi avion</h1>
+    <form action="" id="forma">
+      <input type="text" id="nazivAviona" placeholder="Unesi naziv Aviona" />
+      <input type="number" id="sedistaRedovi" placeholder="sedista redovi" />
+      <select name="" id="sedistaKolone">
+        <option value="2">Broj kolona 2</option>
+        <option value="4">Broj kolona 4</option>
+        <option value="6">Broj kolona 6</option>
+      </select>
+      <button class="submit">Napravi Avion</button>
+    </form>
+
+    <h1>Selektuj postojeci avion</h1>
+
+    <div id="avioniZaSelektovanje">
+      <!-- <div class="postojeciAvioni">
+        <p class="imeAviona">Naziv aviona</p>
+        <p class="brojSedista">Broj sedista</p>
+      </div>
+      <div class="postojeciAvioni">
+        <p class="imeAviona">Naziv aviona</p>
+        <p class="brojSedista">Broj sedista</p>
+      </div> -->
+    </div>
+
+    <div>
+      <button id="backButton" onclick="backPage()">Back</button>
+      <button id="napravi" onclick="napraviLet()">Napravi Let</button>
+    </div>
+
+    <script src="skripta.js"></script>
+  </body>
+</html>

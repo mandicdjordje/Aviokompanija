@@ -1,0 +1,87 @@
+.main-div {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.searchDivs {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+#searchBar {
+  margin: 20px;
+}
+.user-div {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-top: 50px;
+  width: auto;
+  height: 200px;
+}
+.airCompany {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-top: 50px;
+  width: auto;
+  height: 200px;
+}
+.userr {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user {
+  background-color: aqua;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 20px;
+
+  height: 200px;
+  width: 400px;
+  opacity: 0.7;
+  transition: 0.7s;
+}
+.user:hover {
+  opacity: 1;
+}
+.grid-username {
+  place-items: center;
+  width: auto;
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+.aircompaniName {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.email {
+  margin-top: 40px;
+  text-align: center;
+}
+.create {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  font-size: 20px;
+  background-color: brown;
+  color: beige;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+#button {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
